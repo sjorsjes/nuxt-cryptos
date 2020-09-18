@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\vicompany\\\\Github\\\\nuxt-cryptos\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_4096f669"
+  },
+  {
+    "name": "cryptos",
+    "path": "/cryptos",
+    "component": "C:\\\\vicompany\\\\Github\\\\nuxt-cryptos\\\\pages\\\\cryptos\\\\index.vue",
+    "chunkName": "pages/cryptos/index",
+    "_name": "_d38a54d8"
+  },
+  {
+    "name": "cryptos-id",
+    "path": "/cryptos/:id",
+    "component": "C:\\\\vicompany\\\\Github\\\\nuxt-cryptos\\\\pages\\\\cryptos\\\\_id.vue",
+    "chunkName": "pages/cryptos/_id",
+    "_name": "_882da608"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\vicompany\\\\Github\\\\nuxt-cryptos\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_604ed12e"
+  }
+]

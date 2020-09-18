@@ -1,0 +1,44 @@
+{
+  "Chart": {
+    "description": "Auto imported from components/chart.vue"
+  },
+  "LazyChart": {
+    "description": "Auto imported from components/chart.vue"
+  },
+  "Chartheader": {
+    "description": "Auto imported from components/chartheader.vue"
+  },
+  "LazyChartheader": {
+    "description": "Auto imported from components/chartheader.vue"
+  },
+  "Chartmeta": {
+    "description": "Auto imported from components/chartmeta.vue"
+  },
+  "LazyChartmeta": {
+    "description": "Auto imported from components/chartmeta.vue"
+  },
+  "Cryptocard": {
+    "description": "Auto imported from components/cryptocard.vue"
+  },
+  "LazyCryptocard": {
+    "description": "Auto imported from components/cryptocard.vue"
+  },
+  "Cryptocollection": {
+    "description": "Auto imported from components/cryptocollection.vue"
+  },
+  "LazyCryptocollection": {
+    "description": "Auto imported from components/cryptocollection.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/navigation.vue"
+  },
+  "LazyNavigation": {
+    "description": "Auto imported from components/navigation.vue"
+  },
+  "Tick": {
+    "description": "Auto imported from components/tick.vue"
+  },
+  "LazyTick": {
+    "description": "Auto imported from components/tick.vue"
+  }
+}

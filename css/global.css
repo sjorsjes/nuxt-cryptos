@@ -1,0 +1,105 @@
+:root {
+	/* Colors */
+	--action-color: #ff5666;
+	--interaction-color: #5675ff;
+	--background-color: #fff;
+	--border-color: #c0c0c0;
+	--foreground-color: #333;
+	--negative-color: var(--action-color);
+	--positive-color: #52d8ab;
+
+	/* Decoration */
+	--box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	--border-radius: 3px;
+
+	/* Typography */
+	--font-family: roboto, -apple-system, blinkmacsystemfont, 'Segoe UI', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	--font-size-s: 0.75rem;
+	--font-size-m: 1rem;
+	--font-size-l: 1.25rem;
+	--font-size-xl: 1.5rem;
+	--font-size-xxl: 2rem;
+	--font-size-xxxl: 3rem;
+	--font-size-shout: 4rem;
+	--line-height: 1.5;
+
+	/* Spacing */
+	--distance: 1rem;
+	--distance-s: 0.5rem;
+	--distance-xs: 0.25rem;
+	--gutter: 1rem;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+
+	font-family: var(--font-family);
+	font-size: var(--font-size-m);
+	line-height: var(--line-height);
+	color: var(--foreground-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em;
+
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.heading-shout {
+	font-size: var(--font-size-shout);
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1,
+.heading-xxxl {
+	font-size: var(--font-size-xxxl);
+}
+
+h2,
+.heading-xxl {
+	font-size: var(--font-size-xxl);
+}
+
+h3,
+.heading-xl {
+	font-size: var(--font-size-xl);
+}
+
+h4,
+.heading-l {
+	font-size: var(--font-size-l);
+}
+
+h5,
+.heading-m {
+	font-size: var(--font-size-m);
+
+	font-weight: bold;
+}
+
+a {
+	color: var(--action-color);
+}
+
+a:hover,
+a:focus {
+	color: var(--interaction-color);
+}
+
+p {
+	margin: 1rem auto;
+	text-align: center;
+}
