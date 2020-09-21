@@ -1,5 +1,5 @@
 <template>
-	<Cryptocollection />
+	<CryptoCollection />
 </template>
 
 <style scoped>

@@ -20,11 +20,9 @@
 </template>
 
 <script>
-	import localize from '../utils/localize';
+	import localize from '../../utils/localize';
 
 	export default {
-		name: 'chart-meta',
-
 		props: {
 			rank: {
 				type: String,

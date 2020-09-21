@@ -1,34 +1,4 @@
 {
-  "Chart": {
-    "description": "Auto imported from components/chart.vue"
-  },
-  "LazyChart": {
-    "description": "Auto imported from components/chart.vue"
-  },
-  "Chartheader": {
-    "description": "Auto imported from components/chartheader.vue"
-  },
-  "LazyChartheader": {
-    "description": "Auto imported from components/chartheader.vue"
-  },
-  "Chartmeta": {
-    "description": "Auto imported from components/chartmeta.vue"
-  },
-  "LazyChartmeta": {
-    "description": "Auto imported from components/chartmeta.vue"
-  },
-  "Cryptocard": {
-    "description": "Auto imported from components/cryptocard.vue"
-  },
-  "LazyCryptocard": {
-    "description": "Auto imported from components/cryptocard.vue"
-  },
-  "Cryptocollection": {
-    "description": "Auto imported from components/cryptocollection.vue"
-  },
-  "LazyCryptocollection": {
-    "description": "Auto imported from components/cryptocollection.vue"
-  },
   "Navigation": {
     "description": "Auto imported from components/navigation.vue"
   },
@@ -40,5 +10,35 @@
   },
   "LazyTick": {
     "description": "Auto imported from components/tick.vue"
+  },
+  "Chart": {
+    "description": "Auto imported from components/chart/chart.vue"
+  },
+  "LazyChart": {
+    "description": "Auto imported from components/chart/chart.vue"
+  },
+  "ChartHeader": {
+    "description": "Auto imported from components/chart/chartHeader.vue"
+  },
+  "LazyChartHeader": {
+    "description": "Auto imported from components/chart/chartHeader.vue"
+  },
+  "ChartMeta": {
+    "description": "Auto imported from components/chart/chartMeta.vue"
+  },
+  "LazyChartMeta": {
+    "description": "Auto imported from components/chart/chartMeta.vue"
+  },
+  "CryptoCard": {
+    "description": "Auto imported from components/crypto/cryptoCard.vue"
+  },
+  "LazyCryptoCard": {
+    "description": "Auto imported from components/crypto/cryptoCard.vue"
+  },
+  "CryptoCollection": {
+    "description": "Auto imported from components/crypto/cryptoCollection.vue"
+  },
+  "LazyCryptoCollection": {
+    "description": "Auto imported from components/crypto/cryptoCollection.vue"
   }
 }

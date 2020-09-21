@@ -8,8 +8,6 @@
 
 <script>
 	export default {
-		name: 'tick',
-
 		props: {
 			tickKey: {
 				required: true,

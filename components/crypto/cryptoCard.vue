@@ -27,15 +27,13 @@
 </template>
 
 <script>
-	import localize from '../utils/localize';
 	import round from 'lodash.round';
+	import localize from '../../utils/localize';
 
 	const CLASS_TICK_DOWN = 'tick-down';
 	const CLASS_TICK_UP = 'tick-up';
 
 	export default {
-		name: 'cryptocard',
-
 		props: {
 			id: {
 				type: String,

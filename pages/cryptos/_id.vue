@@ -3,13 +3,13 @@
 		<h1 class="heading-shout">{{ this.$route.params.id }}</h1>
 
 		<div v-if="this.item">
-			<Chartheader
+			<ChartHeader
 				:title="this.item.name"
 				:changePercent24Hr="this.item.changePercent24Hr"
 				:priceUsd="this.item.priceUsd"
 			/>
 
-			<Chartmeta
+			<ChartMeta
 				:rank="this.item.rank"
 				:marketCapUsd="this.item.marketCapUsd"
 				:volumeUsd24Hr="this.item.volumeUsd24Hr"
@@ -17,7 +17,7 @@
 				:symbol="this.item.symbol"
 			/>
 
-			<Chart />
+			<Chart :id="this.item.id" />
 
 			<NuxtLink :to="'/cryptos'" class="link">
 				Back to overview

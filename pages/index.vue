@@ -6,7 +6,7 @@
 
 		<h2 class="heading-xxxl">Popular cryptos</h2>
 
-		<Cryptocollection :showAmount="3" />
+		<CryptoCollection :showAmount="3" />
 	</div>
 </template>
 

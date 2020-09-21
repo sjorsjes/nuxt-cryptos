@@ -1,13 +1,11 @@
 <template>
 	<div class="chart">
-		insert chart here
+		insert {{ id }} chart here
 	</div>
 </template>
 
 <script>
 	export default {
-		name: 'chart',
-
 		props: {
 			id: {
 				type: String,

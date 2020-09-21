@@ -1,6 +1,6 @@
 <template>
 	<div class="cryptocollection">
-		<Cryptocard
+		<CryptoCard
 			v-for="(crypto, index) in this.cryptos"
 				:key="crypto.id"
 				:index="index"
@@ -17,8 +17,6 @@
 
 <script>
 	export default {
-		name: 'cryptocollection',
-
 		props: {
 			showAmount: {
 				default: 100,
